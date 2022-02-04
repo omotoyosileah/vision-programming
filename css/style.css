@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+@font-face{
+    font-family:RegularL;
+    src:url('../fonts/lato-Regular.ttf');
+    }
+@font-face{
+    font-family:Light;
+    src:url("../fonts/lato-Light.ttf");
+    }
+@font-face{
+    font-family:boldL;
+    src:url("../fonts/lato-Bold.ttf");
+    }
+@font-face{
+    font-family:ThinL;
+    src:url("../fonts/lato-Thin.ttf");
+    }
+@font-face{
+    font-family:MediumL;
+    src:url('../fonts/lato-Medium.ttf');
+    }
+
+    html{
+        background-color:darkcyan;
+    }
+    .sign-in{
+        border:1px solid #fff;
+        width:30%;
+        height:65%;
+        background-color:whitesmoke;
+        position: relative;
+        top:150px;
+        left:440px;
+        border-radius:10px;
+        box-shadow:-23px 23px 9px -12px rgba(0,0,0,0.2) ;
+       
+    }
+    .name{
+        margin-top:50px;
+        padding:7px 35;
+        border-style: none;
+        background-color: transparent;
+        margin-left:5%;
+        outline:none;
+    }
+    
+    .password{
+        margin-top:40px;
+        padding:7px 35;
+        border-style: none;
+        background-color: transparent;
+        margin-left:5%;
+        outline:none;
+    }
+    .password:active, .password:visited{
+        border-style:none;
+    }
+    .btn{
+        position:absolute;
+        width:38%;
+        height:9%;
+        left:32%;
+        top:68%;
+        border:1px solid #6807f9;
+        font-size:17px;
+       text-align: center;
+        text-decoration:none;
+        border-radius: 30px;
+        text-transform: uppercase;
+        padding-top:2.5%;
+     } 
+     .btn-log{
+         background-color:#6807f9;
+         color:#fff;
+     }
+     .btn-log:hover, .btn-log:active{
+   background-color:#7d2ef3 ;
+      transition:0.2s;
+     }
+     .para{
+         color:#11add8;
+         margin-left:14%;
+         margin-top:40px;
+         border:1px #11add8;
+     }
+     hr{
+        width:80%;
+        margin-left:50px;
+     }
+    h2{
+        margin-left:35%;
+        font-size:30px;
+        margin-top:20px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        letter-spacing:1px;
+    }
+   .viewers{
+       position:absolute;
+       top:85%;
+       left:35%;
+       font-family:ThinL;
+   }
+   .sign{
+       color:#11add8;
+   }
+   a{
+       text-decoration: none;
+   }
